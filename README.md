@@ -1,0 +1,4 @@
+This is a simple Chrome accessibility checker. It checks both the contrast ratio of text and if images have alt text, according to web content accessibility guidelines (WCAG). This program is called from a bookmarklet icon on the Chrome bookmark panel. When there is an error with the accessibility a small warning icon will appear to alert us of this. Upon hovering over that icon a message will appear that tells us what the problem is. 
+
+To install this program install under your htdocs folder in Apache on your localhost. The bookmarklet javascript code should be installed on your Chrome browser bookmark panel via the bookmark manager. This script can be put in the space where a URL link is normally placed. To call the program simply use the button on the bookmark panel to check the web page currently loaded in the browser. 
+
